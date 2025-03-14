@@ -1,0 +1,86 @@
+.faq .container{
+    max-width: 85%;
+    border-radius: 5px;
+    color: #000;
+    border-radius: none;
+}
+.pgb{
+    margin: 20px 0;
+    border-radius: 5px;
+    color: #f10707;
+    border-radius: none;
+}
+.box button{
+    border-radius: 3px;
+    border: none;
+    color: #e3e3e3;
+    background-color: #212223;
+}
+
+.faq .box{
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.box h4{
+    font-size: 20px;
+}
+
+.faq button{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3px 5px;
+}
+
+.box span{
+    transition: .5s;
+    transform: .5s;
+}
+.container .now{
+    color: rgb(105, 74, 255);
+    margin-bottom: 50px;
+}
+.faq p{
+    padding: 5px;
+    font-size: 13px;
+}
+
+.faq .accordion:hover{
+    background-color: #1eb2a6;
+    color: #fff;
+    transition: .5s;
+}
+.sdo{
+    max-width: 100%;
+    border-radius: 5px;
+    border-radius: none;
+    margin: 250px 30px 30px 30px;
+}
+
+
+@media screen and (max-width: 768px){
+    .box h4 {
+        display: flex;
+        justify-content: space-between;
+        padding: 3px 2px;
+        font-size: 14px !important;
+    }
+    .box p{
+        font-size: 12px !important;
+    }
+    .sdo{
+        max-width: 100%;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .sdo span{
+        font-size: 12px;
+    }
+    .sdo h4, .container h4{
+        font-size: 17px;
+    }
+}
+

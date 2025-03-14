@@ -1,0 +1,75 @@
+{
+  "appTitle": "El descargador de videos más avanzado",
+  "appSubtitle": "Descarga videos, imágenes y audio de TikTok, Instagram, Facebook, YouTube, Twitter y más!",
+  "placeholder": "Copia y pega el enlace del video para descargar",
+  "pasteLink": "Pegar enlace",
+  "downloadNow": "Descargar ahora",
+  "saveVideo": "Haz clic para guardar el video",
+  "platformLabel": "Plataforma",
+  "qualityLabel": "Calidad/Formato",
+  "cookieLabel": "Cookie (para contenido privado)",
+  "cookiePlaceholder": "Introduce la cookie para contenido privado (opcional)",
+  "errorInvalidUrl": "Por favor, introduce una URL válida.",
+  "errorNetwork": "Fallo en la conexión de red. Por favor, verifica tu internet.",
+  "errorRateLimit": "Límite de solicitudes excedido. Inténtalo de nuevo más tarde o actualiza tu plan.",
+  "errorDownload": "No se pudo descargar el contenido. Inténtalo de nuevo.",
+  "errorInvalidPastedUrl": "URL de red social no válida pegada. Usa un enlace válido de plataformas compatibles.",
+  "errorPaste": "No se pudo pegar el enlace. Asegúrate de que tienes permisos para el portapapeles.",
+  "errorDownloadFile": "No se pudo descargar el archivo multimedia. Verifica tu conexión a internet o inténtalo de nuevo.",
+  "errorInterrupted": "Descarga interrumpida. Reiniciando desde el principio. Inténtalo de nuevo.",
+  "errorResume": "Descarga interrumpida debido a un error de red. Progreso guardado—inténtalo de nuevo para reanudar.",
+  "successMessage": "{type} obtenido con éxito desde {source}.",
+
+  "faqs": {
+      "legalDisclaimer": {
+          "title": "Aviso legal",
+          "desc": "Flynet Downloader es solo para uso informativo. No apoyamos la descarga de contenido con derechos de autor sin permiso. Úsalo solo para fines personales y legales. Flynet no está afiliado a ninguna plataforma de redes sociales. La disponibilidad del servicio no está garantizada y no somos responsables de ningún problema. Al usar Flynet, aceptas cumplir con todas las leyes aplicables. Podemos modificar o descontinuar los servicios en cualquier momento sin previo aviso."
+      },
+      "accidentlyclose": {
+          "title": "¿Cerraste accidentalmente el navegador? ¡No te preocupes!",
+          "desc": "Si cierras el navegador mientras descargas, ¡no te preocupes! Tu progreso de descarga está guardado. Simplemente pega el enlace nuevamente para reanudar la descarga. FlyNet Downloader garantiza una experiencia fluida, incluso si cierras el navegador o pierdes la conexión a internet. 🔄"
+      },
+      "supportedPlatforms": {
+          "title": "Descarga desde las principales plataformas",
+          "desc": "FlyNet Downloader te permite guardar videos fácilmente desde Facebook, Instagram, TikTok, Twitter y más. Solo pega el enlace y descarga al instante—rápido, simple y sin complicaciones! 🚀"
+      },
+      "downloadLocation": {
+          "title": "¿Dónde se guardan las descargas?",
+          "desc": "Las descargas se guardan en la carpeta predeterminada de 'Descargas' de tu dispositivo o son visibles en la 'Galería' de tu móvil. Puedes ver tu historial de descargas en el navegador."
+      },
+      "mobileCompatibility": {
+          "title": "Compatibilidad con dispositivos móviles",
+          "desc": "FlyNet Downloader está completamente optimizado para dispositivos móviles. Simplemente visita nuestro sitio web en cualquier navegador móvil para descargar contenido directamente a tu smartphone o tablet, sin necesidad de aplicaciones adicionales."
+      },
+      "downloadSpeed": {
+          "title": "Velocidad de descarga",
+          "desc": "FlyNet Downloader es un descargador de videos avanzado y potente. Sin embargo, la velocidad de descarga depende de factores como el tamaño del archivo y tu conexión a internet. En la mayoría de los casos, los videos se descargan en segundos o minutos, garantizando una experiencia rápida y fluida."
+      },
+      "technicalSupport": {
+          "title": "Soporte técnico",
+          "desc": "Para cualquier problema o consulta, contáctanos en support@flynet.com. Nuestro equipo de soporte está disponible para brindarte asistencia rápida y garantizar una experiencia sin problemas."
+      },
+      "privacySecurity": {
+          "title": "Tu privacidad, nuestra prioridad",
+          "desc": "FlyNet Downloader mantiene tus descargas 100% privadas. No almacenamos contenido ni datos personales, garantizando total anonimato. Construido con los más altos estándares de seguridad, puedes descargar con confianza—seguro, protegido y sin preocupaciones. 🔒"
+      },
+      "legalConsiderations": {
+          "title": "Consideraciones legales",
+          "desc": "FlyNet Downloader te ayuda a descargar contenido disponible públicamente de manera legal. Los usuarios deben asegurarse de tener los permisos adecuados. Descargar material con derechos de autor sin autorización es ilegal y va en contra de nuestros términos. Promovemos un uso responsable solamente."
+      }
+  },
+  "hd_no_watermark": "HD (Sin marca de agua) - Video",
+  "no_watermark": "Estándar (Sin marca de agua) - Video",
+  "watermark": "Estándar (Con marca de agua) - Video",
+  "jpg": "Alta calidad - Imagen",
+  "mp3": "Alta calidad - Audio",
+  "loadingMedia": "Cargando contenido...",
+  "flyNetDescription": "FlyNet Downloader es una plataforma web diseñada para descargas de video y audio seguras y sin esfuerzo desde las principales redes sociales como Facebook, Instagram, TikTok y Twitter. Accesible en todos los dispositivos, no requiere instalación de software. Comprometido con la privacidad y seguridad del usuario, FlyNet Downloader garantiza que ningún contenido descargado ni datos personales se almacenen, proporcionando una experiencia de descarga segura y eficiente.",
+  "whatYouNeedToKnow": "¿QUÉ NECESITAS SABER?",
+  "faqsTitle": "Preguntas Frecuentes",
+  "cookieTitle": "Cookies y Privacidad",
+  "cookieMessage": "Usamos cookies y caché para mejorar tu experiencia en FlyNet Downloader. Tu privacidad es nuestra prioridad—nunca almacenamos datos personales ni descargas. Al continuar, aceptas nuestro uso de cookies, que puedes gestionar en cualquier momento en Configuración.",
+  "disagree": "No estoy de acuerdo",
+  "agree": "Estoy de acuerdo",
+  "cookieSettings": "Preferencias de cookies"
+}

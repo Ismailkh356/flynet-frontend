@@ -1,0 +1,88 @@
+{
+    "appTitle": "Most Advance All Video Downloader",
+    "appSubtitle": "Download Movies and videos, images, and audio from TikTok, Instagram, Facebook, YouTube, Twitter and more!",
+    "placeholder": "Copy and Paste video link to download",
+    "pasteLink": "Paste Link",
+    "downloadNow": "Download Now",
+    "saveVideo": "Click to Save video",
+    "platformLabel": "Platform",
+    "qualityLabel": "Quality/Format",
+    "cookieLabel": "Cookie (for private content)",
+    "cookiePlaceholder": "Enter cookie for private content (optional)",
+    "errorInvalidUrl": "Please enter a valid URL.",
+    "errorNetwork": "Network connection failed. Please check your internet.",
+    "errorRateLimit": "Rate limit exceeded. Please try again later or upgrade your plan.",
+    "errorDownload": "Failed to download media. Please try again.",
+    "errorInvalidPastedUrl": "Invalid social media URL pasted. Please use a valid link from supported platforms.",
+    "errorPaste": "Failed to paste link. Please ensure you have clipboard permissions.",
+    "errorDownloadFile": "Failed to download the media file. Please check your internet or try again.",
+    "errorInterrupted": "Download interrupted. Restarting from beginning. Please try again.",
+    "errorResume": "Download interrupted due to network error. Progress saved—try again to resume.",
+    "successMessage": "Successfully retrieved.",
+
+
+  "faqs": {
+    "legalDisclaimer": {
+      "title": "Legal Disclaimer",
+      "desc": " Flynet Downloader is for informational use only. We do not support downloading copyrighted content without permission. Use it only for personal, lawful purposes. Flynet is not affiliated with any social media platform. Service availability is not guaranteed, and we are not liable for any issues. By using Flynet, you agree to follow all applicable laws. We may modify or discontinue services anytime without notice."
+    },
+    
+    "accidentlyclose": {
+      "title": "Accidentally Closed the Browser? No Worries!",
+
+      "desc": "If you accidentally close the browser while downloading, don’t worry! Your download progress is saved. Simply paste the link again to resume downloading. FlyNet Downloader ensures a seamless experience, even if you close the browser or lose internet connection. 🔄"
+    },
+    
+    "supportedPlatforms": {
+      "title": "Download from Top Platforms",
+      "desc": "FlyNet Downloader lets you easily save videos from Facebook, Instagram, TikTok, Twitter, and more. Just paste the link and download instantly—fast, simple, and hassle-free! 🚀"
+    },
+    "downloadLocation": {
+      "title": "Where are downloads saved?",
+      "desc": "Downloads are saved to your device's default 'Downloads' folder or visible in your Mobile 'Gallery', You can view your download history in the Browser Download."
+    },
+    "mobileCompatibility": {
+      "title": "Mobile compatibility",
+      "desc": "FlyNet Downloader is fully optimized for mobile devices. Simply visit our website on any mobile browser to download content directly to your smartphone or tablet, no additional apps required."
+    },
+ 
+    "downloadSpeed": {
+      "title": "Download speed",
+      "desc": "FlyNet Downloader is a powerful and advanced video downloader. However, download speeds depend on factors like file size and your internet connection. In most cases, videos download within seconds or a few minutes, ensuring a fast and smooth experience. "
+    },
+ 
+    "technicalSupport": {
+      "title": "Technical support",
+      "desc": "For any issues or inquiries, feel free to reach out to us at support@flynet.com. Our support team is available to provide prompt assistance and ensure a smooth experience."
+    },
+    "privacySecurity": {
+      "title": "Your Privacy, Our Priority",
+      "desc": "FlyNet Downloader keeps your downloads 100% private. We don’t store content or personal data, ensuring complete anonymity. Built with top security standards, you can download with confidence—safe, secure, and worry-free. 🔒"
+    },
+    "legalConsiderations": {
+      "title": "Legal considerations",
+      "desc": "FlyNet Downloader helps you download publicly available content legally. Users must ensure they have the right permissions. Downloading copyrighted material without authorization is illegal and against our terms. We promote responsible use only."
+    }
+  },
+  "hd_no_watermark": "HD (No Watermark) - Video",
+  "no_watermark": "Standard (No Watermark) - Video",
+  "watermark": "Standard (With Watermark) - Video",
+  "jpg": "High Quality - Image",
+  "mp3": "High Quality - Audio",
+  "loadingMedia": "Loading Media...",
+
+
+    "flyNetDescription": "FlyNet Downloader is a seamless, web-based platform designed for effortless and secure video and audio downloads from top social media sites such as Facebook, Instagram, TikTok, and Twitter. Accessible on all devices, it requires no software installation. Committed to user privacy and security, FlyNet Downloader ensures that no downloaded content or personal data is ever stored, providing a safe and efficient downloading experience.",
+    "whatYouNeedToKnow": "WHAT YOU NEED TO KNOW?",
+    "faqsTitle": "Frequently Asked Questions",
+
+
+ 
+      "cookieTitle": "Cookies & Privacy",
+      "cookieMessage": "We use cookies and cache to improve your experience on FlyNet Downloader. Your privacy is our priority—we never store personal data or downloads. By continuing, you agree to our use of cookies, which you can manage anytime in Settings.",
+      "disagree": "Disagree",
+      "agree": "Agree",
+      "cookieSettings": "Cookie Preferences"
+    }
+ 
+

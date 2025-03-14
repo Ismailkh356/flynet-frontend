@@ -1,0 +1,494 @@
+/* Global Styles */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Arial', sans-serif;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+body:not(.dark-theme) {
+  background-color: #fff;
+  color: #000;
+}
+
+/* App Container */
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.app-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Typography */
+.app-title {
+  color: #f02c50; /* Bright red from navbar.css */
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(240, 44, 80, 0.2);
+  animation: fadeIn 0.5s ease-in;
+}
+
+.app-subtitle {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 45px;
+  text-align: center;
+  line-height: 1.5;
+  opacity: 0.9;
+  transition: color 0.3s ease;
+}
+
+/* Input and Buttons */
+.input-group {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+  animation: slideIn 0.5s ease-out;
+}
+
+.form-cont {
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  font-size: 1rem;
+  flex-grow: 1;
+  position: relative;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.form-cont:focus {
+  border-color: #f02c50; /* Match navbar red */
+  box-shadow: 0 0 8px rgba(240, 44, 80, 0.3);
+  outline: none;
+  transform: scale(1.02);
+}
+
+.paste-btn,
+.download-btn,
+.download-link-btn {
+  border-radius: 7px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.paste-btn {
+  background-color: #424242; /* Dark gray from navbar */
+  border: 1px solid #ddd;
+  color: #f02c50; /* Bright red from navbar */
+}
+
+.paste-btn:hover {
+  background-color: #f02c50; /* Match navbar red */
+  color: #fff;
+  border-color: #f02c50;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(240, 44, 80, 0.2);
+}
+
+.download-btn,
+.download-link-btn {
+  background-color: #f02c50; /* Bright red from navbar */
+  border: none;
+  color: #fff;
+}
+
+.download-btn:hover,
+.download-link-btn:hover {
+  background-color: #d02545; /* Darker red for hover */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(240, 44, 80, 0.2);
+}
+
+.app-container .Icon {
+  margin-right: 8px;
+  transition: transform 0.3s ease;
+}
+
+.app-container .Icon:hover {
+  transform: scale(1.1);
+}
+
+/* Quality Selector and Form Groups */
+.quality-selector,
+.form-group {
+  margin-bottom: 20px;
+  animation: fadeIn 0.5s ease-out 0.2s;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 5px;
+  transition: color 0.3s ease;
+}
+
+.form-select {
+  border-radius: 7px;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.form-select:focus {
+  border-color: #f02c50; /* Match navbar red */
+  box-shadow: 0 0 8px rgba(240, 44, 80, 0.3);
+  outline: none;
+  transform: scale(1.02);
+}
+
+/* Error Messages */
+.error {
+  color: #dc3545;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: rgba(220, 53, 69, 0.1);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  animation: bounceIn 0.5s ease-out;
+}
+
+.error:hover {
+  transform: scale(1.02);
+}
+
+/* Spinners */
+.spinner-grow {
+  color: #f02c50; /* Bright red from navbar for attractive Grow Spinner */
+}
+
+.spinner-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.spinner {
+  margin-right: 10px;
+  animation: spin 1s linear infinite;
+}
+
+/* Clear Button (Cross Icon) */
+.clear-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  transition: color 0.3s ease, transform 0.2s ease, opacity 0.3s ease;
+}
+
+.clear-btn:hover {
+  color: #dc3545; /* Red on hover for emphasis */
+  transform: translateY(-50%) scale(1.1);
+  opacity: 0.8;
+}
+
+.clear-btn .Icon {
+  font-size: 1rem;
+}
+
+/* FAQ Styling */
+.faq {
+  color: #0056b3;
+  font-weight: 500;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.faq:hover {
+  color: #003d7a;
+}
+
+.form-cont{
+  border-radius: 8px;
+}
+
+.p-4 p{
+  padding: 2px;
+  font-size: 13px !important;
+}
+.p-4{
+  padding: 2px !important;
+  margin: 5px !important;
+}
+.p-4 h4{
+  padding: 2px;
+  font-size: 13px !important;
+}
+
+.p-4 Button{
+  padding: 4px !important;
+  font-size: 13px !important;
+  height: 25px;
+}
+
+
+
+/* Animations for Better UX */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0.9); opacity: 0; }
+  50% { transform: scale(1.05); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app-container {
+    margin: 10px;
+    padding: 20px 15px;
+    max-width: 100%;
+  }
+
+  .app-title {
+    font-size: .9rem;
+  }
+
+  .app-subtitle {
+    font-size: 0.6rem;
+  }
+
+  .input-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .form-cont,
+  .paste-btn,
+  .download-btn,
+  .download-link-btn,
+  .form-select {
+    width: 100% !important;
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+
+  .paste-btn,
+  .download-btn,
+  .download-link-btn {
+    margin-top: 10px;
+  }
+
+  .quality-selector,
+  .form-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form-label {
+    margin-bottom: 5px;
+  }
+
+  .clear-btn {
+    right: 15px; /* Adjust for mobile screens */
+  }
+
+  .error {
+    font-size: 0.8rem;
+  }
+
+
+  .cookie-consent-modal .modal-body {
+    padding: 15px;
+  }
+
+  .cookie-consent-modal h4 {
+    font-size: 1.2rem;
+  }
+
+  .cookie-consent-modal p {
+    font-size: 0.9rem;
+  }
+
+  .cookie-consent-modal .btn {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+
+  .cookie-settings-btn {
+    font-size: 0.6rem !important;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-container {
+    padding: 15px 10px;
+  }
+
+  .app-title {
+    font-size: .7rem;
+  }
+
+  .app-subtitle {
+    font-size: 0.5rem;
+  }
+
+  .form-cont,
+  .paste-btn,
+  .download-btn,
+  .download-link-btn,
+  .form-select {
+    font-size: 0.8rem;
+    padding: 8px 12px;
+  }
+
+  .clear-btn {
+    right: 10px; /* Further adjust for smaller screens */
+  }
+
+  .error {
+    font-size: 0.7rem;
+  }
+
+  .cookie-consent-modal .modal-body {
+    padding: 10px;
+  }
+
+  .cookie-consent-modal h4 {
+    font-size: 1rem;
+  }
+
+  .cookie-consent-modal p {
+    font-size: 0.8rem;
+  }
+
+  .cookie-consent-modal .btn {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+  }
+
+  .cookie-settings-btn {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+  }
+}
+
+
+/* Cookie Consent Modal */
+.cookie-consent-modal .modal-content {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.cookie-consent-modal .modal-content:hover {
+  transform: scale(1.02);
+}
+
+.cookie-consent-modal .modal-body {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cookie-consent-modal h4 {
+  color: #f02c50; /* Match navbar red */
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 3px rgba(240, 44, 80, 0.2);
+  animation: fadeIn 0.5s ease-in;
+}
+
+.cookie-consent-modal p {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  opacity: 0.9;
+  transition: color 0.3s ease;
+}
+
+.cookie-consent-modal .btn {
+  border-radius: 7px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cookie-consent-modal .btn-outline-primary {
+  background-color: #fff;
+  border: 1px solid #f02c50;
+  color: #f02c50;
+}
+
+.cookie-consent-modal .btn-outline-primary:hover {
+  background-color: #f02c50;
+  color: #fff;
+  border-color: #f02c50;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(240, 44, 80, 0.2);
+}
+
+.cookie-consent-modal .btn-primary {
+  background-color: #f02c50;
+  border: none;
+  color: #fff;
+}
+
+.cookie-consent-modal .btn-primary:hover {
+  background-color: #d02545; /* Darker red for hover */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(240, 44, 80, 0.2);
+}
+
+.cookie-settings-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 16px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.cookie-settings-btn:hover {
+  color: #d02545; /* Darker red on hover */
+  transform: translateY(-2px);
+}
+
+ 
+ 

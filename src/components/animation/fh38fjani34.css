@@ -1,0 +1,47 @@
+.animated-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  
+  .animated-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff6f61, #ffcc00, #00ccff, #ff00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    border-right: 2px solid #000;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #000; }
+  }
+
+
+  @media  (max-width: 768px) {
+    .animated-text {
+      font-size: 1rem;
+    }
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .animated-text {
+      font-size: .7rem;
+    }
+    
+  }
+
+    @media screen and (max-width: 480px) {
+        .animated-text {
+        font-size: 0.6rem;
+        }
+        
+    }

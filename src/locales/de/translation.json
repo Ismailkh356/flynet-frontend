@@ -1,0 +1,81 @@
+{
+  "appTitle": "Fortschrittlichster All Video Downloader",
+  "appSubtitle": "Lade Videos, Bilder und Audiodateien von TikTok, Instagram, Facebook, YouTube, Twitter und mehr herunter!",
+  "placeholder": "Kopiere und füge den Videolink ein, um herunterzuladen",
+  "pasteLink": "Link einfügen",
+  "downloadNow": "Jetzt herunterladen",
+  "saveVideo": "Klicke, um das Video zu speichern",
+  "platformLabel": "Plattform",
+  "qualityLabel": "Qualität/Format",
+  "cookieLabel": "Cookie (für private Inhalte)",
+  "cookiePlaceholder": "Gib ein Cookie für private Inhalte ein (optional)",
+  "errorInvalidUrl": "Bitte eine gültige URL eingeben.",
+  "errorNetwork": "Netzwerkverbindung fehlgeschlagen. Bitte überprüfe deine Internetverbindung.",
+  "errorRateLimit": "Ratenlimit überschritten. Bitte versuche es später erneut oder upgrade deinen Plan.",
+  "errorDownload": "Medien konnten nicht heruntergeladen werden. Bitte versuche es erneut.",
+  "errorInvalidPastedUrl": "Ungültige Social-Media-URL eingefügt. Bitte benutze einen gültigen Link von unterstützten Plattformen.",
+  "errorPaste": "Fehler beim Einfügen des Links. Stelle sicher, dass du Berechtigungen für die Zwischenablage hast.",
+  "errorDownloadFile": "Die Mediendatei konnte nicht heruntergeladen werden. Bitte überprüfe dein Internet oder versuche es erneut.",
+  "errorInterrupted": "Download unterbrochen. Neustart vom Anfang. Bitte versuche es erneut.",
+  "errorResume": "Download wegen eines Netzwerkfehlers unterbrochen. Fortschritt gespeichert – versuche es erneut, um fortzufahren.",
+  "successMessage": "{type} erfolgreich von {source} abgerufen.",
+
+"faqs": {
+  "legalDisclaimer": {
+    "title": "Rechtlicher Hinweis",
+    "desc": "Flynet Downloader ist nur für Informationszwecke bestimmt. Wir unterstützen das Herunterladen urheberrechtlich geschützter Inhalte ohne Genehmigung nicht. Verwende es nur für persönliche, rechtmäßige Zwecke. Flynet ist nicht mit einer Social-Media-Plattform verbunden. Die Verfügbarkeit des Dienstes wird nicht garantiert, und wir haften nicht für Probleme. Durch die Nutzung von Flynet erklärst du dich damit einverstanden, alle geltenden Gesetze einzuhalten. Wir können unsere Dienste jederzeit ohne vorherige Ankündigung ändern oder einstellen."
+  },
+  
+  "accidentlyclose": {
+    "title": "Browser versehentlich geschlossen? Keine Sorge!",
+    "desc": "Falls du den Browser während des Downloads versehentlich schließt, keine Sorge! Dein Download-Fortschritt wird gespeichert. Füge den Link einfach erneut ein, um den Download fortzusetzen. FlyNet Downloader sorgt für ein nahtloses Erlebnis, selbst wenn du den Browser schließt oder die Internetverbindung verlierst. 🔄"
+  },
+  
+  "supportedPlatforms": {
+    "title": "Von Top-Plattformen herunterladen",
+    "desc": "Mit FlyNet Downloader kannst du ganz einfach Videos von Facebook, Instagram, TikTok, Twitter und mehr speichern. Einfach den Link einfügen und sofort herunterladen – schnell, einfach und unkompliziert! 🚀"
+  },
+  "downloadLocation": {
+    "title": "Wo werden Downloads gespeichert?",
+    "desc": "Downloads werden im Standard-Ordner \"Downloads\" deines Geräts gespeichert oder sind in deiner mobilen \"Galerie\" sichtbar. Deinen Download-Verlauf kannst du im Browser-Download einsehen."
+  },
+  "mobileCompatibility": {
+    "title": "Kompatibilität mit Mobilgeräten",
+    "desc": "FlyNet Downloader ist vollständig für Mobilgeräte optimiert. Besuche einfach unsere Website in einem mobilen Browser, um Inhalte direkt auf dein Smartphone oder Tablet herunterzuladen – keine zusätzlichen Apps erforderlich."
+  },
+
+  "downloadSpeed": {
+    "title": "Download-Geschwindigkeit",
+    "desc": "FlyNet Downloader ist ein leistungsstarker und fortschrittlicher Video-Downloader. Die Download-Geschwindigkeit hängt jedoch von Faktoren wie Dateigröße und deiner Internetverbindung ab. In den meisten Fällen werden Videos innerhalb von Sekunden oder wenigen Minuten heruntergeladen und sorgen für ein schnelles und reibungsloses Erlebnis."
+  },
+
+  "technicalSupport": {
+    "title": "Technischer Support",
+    "desc": "Für Fragen oder Probleme kannst du uns jederzeit unter support@flynet.com kontaktieren. Unser Support-Team steht bereit, um schnelle Hilfe zu leisten und eine reibungslose Nutzung sicherzustellen."
+  },
+  "privacySecurity": {
+    "title": "Deine Privatsphäre, unsere Priorität",
+    "desc": "FlyNet Downloader hält deine Downloads 100 % privat. Wir speichern keine Inhalte oder persönlichen Daten, um vollständige Anonymität zu gewährleisten. Mit höchsten Sicherheitsstandards kannst du sicher und sorgenfrei herunterladen. 🔒"
+  },
+  "legalConsiderations": {
+    "title": "Rechtliche Überlegungen",
+    "desc": "FlyNet Downloader hilft dir, öffentlich verfügbare Inhalte legal herunterzuladen. Benutzer müssen sicherstellen, dass sie die erforderlichen Berechtigungen haben. Das Herunterladen urheberrechtlich geschützter Inhalte ohne Genehmigung ist illegal und verstößt gegen unsere Nutzungsbedingungen. Wir fördern nur verantwortungsbewusste Nutzung."
+  }
+},
+"hd_no_watermark": "HD (Ohne Wasserzeichen) - Video",
+"no_watermark": "Standard (Ohne Wasserzeichen) - Video",
+"watermark": "Standard (Mit Wasserzeichen) - Video",
+"jpg": "Hohe Qualität - Bild",
+"mp3": "Hohe Qualität - Audio",
+"loadingMedia": "Medien werden geladen...",
+
+  "flyNetDescription": "FlyNet Downloader ist eine nahtlose, webbasierte Plattform für mühelose und sichere Video- und Audio-Downloads von führenden Social-Media-Websites wie Facebook, Instagram, TikTok und Twitter. Es ist auf allen Geräten zugänglich und erfordert keine Softwareinstallation. FlyNet Downloader verpflichtet sich zum Schutz der Privatsphäre und Sicherheit der Benutzer, indem keine heruntergeladenen Inhalte oder persönlichen Daten gespeichert werden, um eine sichere und effiziente Nutzung zu gewährleisten.",
+  "whatYouNeedToKnow": "WAS DU WISSEN SOLLTEST?",
+  "faqsTitle": "Häufig gestellte Fragen",
+
+    "cookieTitle": "Cookies & Datenschutz",
+    "cookieMessage": "Wir verwenden Cookies und Cache, um deine Erfahrung mit FlyNet Downloader zu verbessern. Deine Privatsphäre ist unsere Priorität – wir speichern keine persönlichen Daten oder Downloads. Durch die weitere Nutzung stimmst du der Verwendung von Cookies zu, die du jederzeit in den Einstellungen verwalten kannst.",
+    "disagree": "Ablehnen",
+    "agree": "Zustimmen",
+    "cookieSettings": "Cookie-Einstellungen"
+}

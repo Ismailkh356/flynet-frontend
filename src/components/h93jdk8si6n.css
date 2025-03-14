@@ -1,0 +1,103 @@
+/* Logo Container */
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Logo Styling */
+.logo h2{
+  font-size: 26px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #ff6f61, #ffcc00, #00ccff, #ff00ff);
+  padding: 0 10px 0 10px;
+  border-radius: 3px;
+}
+
+
+/* Navbar Styling */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+}
+
+/* Theme and Language Buttons */
+.thoms {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between buttons */
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+.thoms Button{
+  padding: 20px;
+  height: 30px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .logo h2{
+    font-size: 26px;
+  }
+
+  .thoms {
+    gap: 10px; /* Reduce space between buttons on tablets */
+  }
+
+  .thoms button,
+  .ddp {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .thoms Button{
+    padding: 12px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo h2{
+    font-size: 17px;
+  }
+
+  .thoms {
+    gap: 8px; /* Minimal space between buttons on mobile */
+  }
+
+  .thoms button,
+  .ddp {
+    font-size: 12px;
+    padding: 5px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo h2{
+    font-size: 15px;
+
+  }
+
+  .thoms {
+    gap: 5px; /* Minimal space between buttons */
+  }
+
+  .thoms button,
+  .ddp {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+}
+
+/* Ensure buttons stay aligned and visible on small screens */
+.thoms button {
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

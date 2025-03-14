@@ -1,0 +1,84 @@
+/* Footer Container */
+.footerr {
+    color: #ecf0f1;
+    text-align: center;
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    margin-bottom: 20px;
+  }
+  
+  .social-icons a {
+    color: #6d6d6d;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #3498db;
+  }
+  
+  .footerr h4{
+    color: #676767;
+  }
+  
+  /* Copyright */
+  .copyright {
+    border-top: 1px solid #34495e;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #bdc3c7;
+    background-color: #2d2d2d;
+    padding: 12px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .footer-section {
+      text-align: center;
+    }
+  
+    .footer-section h5 {
+      font-size: 16px;
+    }
+  
+    .footer-section p,
+    .footer-section ul {
+      font-size: 12px;
+    }
+  
+    .social-icons a {
+      font-size: 20px;
+      margin: 0 8px;
+    }
+  
+    .copyright p {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .footer-section {
+      margin-bottom: 30px;
+    }
+  
+    .footer-section h5 {
+      font-size: 14px;
+    }
+  
+    .footer-section p,
+    .footer-section ul {
+      font-size: 11px;
+    }
+  
+    .social-icons a {
+      font-size: 18px;
+      margin: 0 6px;
+    }
+  
+    .copyright p {
+      font-size: 11px;
+    }
+  }
